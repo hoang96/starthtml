@@ -17,7 +17,7 @@ function validateForm(){
                 return false;
               }
               else{
-                var regex = /[^\w\s]/gi; 
+                var regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{9,}$/; 
                 if(password.length <9){
                  alert('Mật khẩu cần ít nhất 9 kí tự');
                   return false;
