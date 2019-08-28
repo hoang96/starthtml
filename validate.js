@@ -1,7 +1,7 @@
 function validateForm(){
             // Bước 1: Lấy giá trị của username và password
-            var username = document.register.username.value;
-            var password = document.register.password.value;
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
  
             // Bước 2: Kiểm tra dữ liệu hợp lệ hay không
             if (username == ''){
